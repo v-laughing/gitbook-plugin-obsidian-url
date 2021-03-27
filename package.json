@@ -1,0 +1,17 @@
+{
+    "name": "gitbook-plugin-obsidian-url",
+    "version": "0.0.1",
+    "description": "convert obsidian url to markdown url",
+    "engines": {
+        "gitbook": "*"
+    },
+    "gitbook": {
+        "properties": {
+            "myConfigKey": {
+                "type": "string",
+                "default": "it's the default value",
+                "description": "It defines my awesome config!"
+            }
+        }
+    }
+}
